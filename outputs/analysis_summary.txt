@@ -1,0 +1,9 @@
+--- RFM Segments ---
+Segment
+Standard           22884
+Loyal Customers    21078
+At Risk            11338
+Champions           1775
+
+--- Sentiment Summary ---
+{'total_reviews': 360187, 'positive_mentions': np.int64(62471), 'negative_mentions': np.int64(17726)}
