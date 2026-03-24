@@ -8,12 +8,22 @@ env/
 venv/
 .env
 
-# Data (EXCLUDE LARGE DATASETS)
-archive (1)/
-*.csv
-*.xlsx
-*.pkl
+# Data (REFINED)
+data/
+!data/shopee_orders_thailand.csv
+!data/shopee_customers_thailand.csv
 outputs/
+!outputs/rfm_segments.csv
+!outputs/campaign_recommendations.csv
+!outputs/*.png
+!outputs/*.pkl
+
+# EXCLUDE MASSIVE DATA (Keep these ignored)
+data/shopee_session_activities_thailand.csv
+data/shopee_website_sessions_thailand.csv
+data/shopee_order_items_thailand.csv
+data/shopee_reviews_thailand.csv
+data/shopee_shipments_thailand.csv
 
 # IDEs
 .vscode/
